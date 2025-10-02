@@ -175,17 +175,42 @@ This optimization shows how indexing can drastically reduce query time, improvin
 
 ---
 
-## Next Steps
-- **Visualize the Data**: Use a data visualization tool like **Tableau** or **Power BI** to create dashboards based on the query results.
-- **Expand Dataset**: Add more rows to the dataset for broader analysis and scalability testing.
-- **Advanced Querying**: Dive deeper into query optimization and explore the performance of SQL queries on larger datasets.
+## Dashboard insights
+  
+![Spotify main dashboard](https://github.com/Sankalpkombey/spotify_sql_project/blob/main/Spotify%20main%20dashboard.png)
 
----
+ Key Visuals & Insights
 
-## Contributing
-If you would like to contribute to this project, feel free to fork the repository, submit pull requests, or raise issues.
+**Top Tracks & Artists:**
 
----
+- “Happier” and “Closer” are the most streamed tracks with over 5.5B streams each.
+- Post Malone leads as the most streamed artist with 15B total streams.
+
+**Music Attributes:**
+
+- Average Danceability Score: 0.62
+- Average Energy Score: 0.64
+- Average Valence Score: 0.53
+These metrics indicate a balance between upbeat and mellow tracks in Spotify’s top-streamed catalog.
+
+**Licensing Distribution:**
+
+- 77% of the total tracks are licensed, while 23% remain unlicensed.
+
+**Popular Albums:**
+Iconic albums such as Coldplay’s X&Y, Ed Sheeran’s x (Wembley Edition), and Bruno Mars’ Unorthodox Jukebox dominate the list.
+
+**Average Likes per Stream by Artist:**
+Olivia tops the chart with 577 likes per stream, followed by Traditional and Shilpi Raj.
+
+## Usage
+This dashboard can be used to:
+
+1. Identify top-performing artists and songs
+
+2. Analyze listener behavior using audio features (danceability, energy, valence)
+3. Track licensing distribution across the platform
+4. Support strategic decision-making for marketing and music promotion
 
 ## License
 This project is licensed under the MIT License.
